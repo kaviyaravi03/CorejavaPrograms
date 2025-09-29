@@ -1,6 +1,11 @@
-package day3;
+//Program to demonstrate creating objects with constructors 
+package com.tnsif.daythree.constructor;
+
+import java.util.Scanner;
 
 public class ConstructorDemo {
+public static void main(String args[])
+{
 	Scanner sc=new Scanner(System.in);
 	String name, city;
 	int id;
@@ -16,7 +21,6 @@ public class ConstructorDemo {
 
 	
 	System.out.println(" ");
-	
 	Customer c1=new Customer(); //default constructor invoked
 	c1.setCustomerName(name);
 	c1.setCustomerId(id);
@@ -25,6 +29,7 @@ public class ConstructorDemo {
 	
 	System.out.print("Enter Customer Id : ");
 	id=sc.nextInt();
+	
 	sc.nextLine();
 	System.out.print("Enter Customer Name : ");
 	name=sc.nextLine();
@@ -37,6 +42,6 @@ public class ConstructorDemo {
 	
 	sc.close();
 	
-}
 
+}
 }
