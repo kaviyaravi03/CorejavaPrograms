@@ -1,7 +1,7 @@
 //Program to demonstrate class and object 
-package com.tnsif.daythree.encapsulation;
+package Day3.encapsulation;
 
-public class EncapsulationDemo {
+public class Encapsulationdemo {
 	public static void main(String[] args) {
 		
 		//object creation 

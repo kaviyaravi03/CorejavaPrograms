@@ -22,38 +22,39 @@ public class Customer {
 		this.customerId = customerId;
 		this.customerCity = customerCity;
 	}
+	
 	//Getter and Setters
-		public String getCustomerName() {
-			return customerName;
-		}
-
-		public void setCustomerName(String customerName) {
-			this.customerName = customerName;
-		}
-
-		public int getCustomerId() {
-			return customerId;
-		}
-
-		public void setCustomerId(int customerId) {
-			this.customerId = customerId;
-		}
-
-		public String getCustomerCity() {
-			return customerCity;
-		}
-
-		public void setCustomerCity(String customerCity) {
-			this.customerCity = customerCity;
-		}
-
-		@Override
-		public String toString() {
-			return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerCity="
-					+ customerCity + "]";
-		}
-		
-		
-		
-		
+	public String getCustomerName() {
+		return customerName;
 	}
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+	public int getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+
+	public String getCustomerCity() {
+		return customerCity;
+	}
+
+	public void setCustomerCity(String customerCity) {
+		this.customerCity = customerCity;
+	}
+
+	@Override
+	public String toString() {
+		return "Customer [customerName=" + customerName + ", customerId=" + customerId + ", customerCity="
+				+ customerCity + "]";
+	}
+	
+	
+	
+	
+}
