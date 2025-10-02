@@ -2,7 +2,7 @@ package Day6.usingFinal;
 
 
 
-public class FinalMethodClassTest extends FinalMethodDemo  {
+public class FinalMethodTest extends FinalMethodDemo  {
 	  // Compile time error because we cannot override the final method 
 		/*
 		 * @Override void show() {
