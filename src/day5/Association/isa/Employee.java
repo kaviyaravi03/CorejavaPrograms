@@ -1,5 +1,5 @@
 //Program to demonstrate usage of IS A Relationship 
-package com.tnsif.dayfive.association.isa;
+package day5.Association.isa;
 
 // Superclass
 public class Employee {
