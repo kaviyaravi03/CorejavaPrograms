@@ -3,8 +3,6 @@ package Day3.constructor;
 
 import java.util.Scanner;
 
-import com.tnsif.Day3.constructor.Customer;
-
 public class Contructordemo {
 public static void main(String args[])
 {
