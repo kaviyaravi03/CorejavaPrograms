@@ -1,9 +1,11 @@
-package day1;
+//Program to demonstrate Data types
+package com.tnsif.day1;
+
 
 public class DataTypeDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		int value1 = 9 / 2; //integer division
 		float value2 = 101 / 61;
 		double value3 = 10d / 6d;
@@ -18,8 +20,7 @@ public class DataTypeDemo {
 		//assigning expression to variable 
 		double percentage = marker * 0.46f;
 		System.out.println("percentage :" + percentage);
-
+		
+		
 	}
-
 }
-1`
