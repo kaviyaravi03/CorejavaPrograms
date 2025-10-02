@@ -1,5 +1,5 @@
 //Program to demonstrate encapsulation
-package com.tnsif.daythree.scannerdemo;
+package Day3.scannerdemo;
 
 import java.util.Scanner;
 
