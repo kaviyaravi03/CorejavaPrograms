@@ -1,7 +1,5 @@
 package Day6.usingFinal;
-
-public class FinalClassDemo {
-
+class FinalClass {
 	void show() {
 		System.out.println("Final class cannot be inherited");
 	}
@@ -18,3 +16,4 @@ public class FinalClassDemo {
 		f1.show();
 	}
 }
+
