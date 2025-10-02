@@ -1,5 +1,5 @@
 // Program to demonstrate usage of the "HAS-A" relationship
-package com.tnsif.dayfive.association.hasa;
+package day5.Association.hasa;
 
 public class Executor {
 
