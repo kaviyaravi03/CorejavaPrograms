@@ -1,9 +1,9 @@
 //Program to demonstrate creating objects with constructors 
-package com.tnsif.daythree.constructor;
+package Day3.constructor;
 
 import java.util.Scanner;
 
-public class ConstructorDemo {
+public class Constructordemo {
 public static void main(String args[])
 {
 	Scanner sc=new Scanner(System.in);
