@@ -1,5 +1,5 @@
 //Program to demonstrate creating objects with constructors 
-package Day3.constructor;
+package com.tnsif.Day3.constructor;
 
 import java.util.Scanner;
 
@@ -21,6 +21,7 @@ public static void main(String args[])
 
 	
 	System.out.println(" ");
+	
 	Customer c1=new Customer(); //default constructor invoked
 	c1.setCustomerName(name);
 	c1.setCustomerId(id);
