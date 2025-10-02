@@ -1,5 +1,5 @@
 //Program to demonstrate accessing classes and methods of same package
-package com.tnsif.dayfour.firstpackage;
+package day4.firstpackage;
 
 
 public class Executor {
