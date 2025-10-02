@@ -1,5 +1,5 @@
 //Program to demonstrate creating objects
-package com.tnsif.dayfour.firstpackage;
+package day4.firstpackage;
 
 import java.util.Scanner;
 
