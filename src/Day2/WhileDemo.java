@@ -1,15 +1,15 @@
-package day2;
+package Day2;
 
-public class Breakdemo {
+public class WhileDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		for (int i = 5; i < 10; i++) {
-			if (i == 5)
-				break;
+		int i=99;
+		while(i<=100)
+		{
 			System.out.println(i);
+			i++;
 		}
-
 
 	}
 
