@@ -1,4 +1,4 @@
-package texteditor;
+package day5.multilevelinheeritance.texteditor;
 
 public class Word extends Wordpad {
     private boolean spellCheckEnabled;
