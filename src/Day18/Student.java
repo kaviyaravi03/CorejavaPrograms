@@ -1,4 +1,4 @@
-package Day18.map;
+package Day18;
 
 public class Student implements Comparable 
 {

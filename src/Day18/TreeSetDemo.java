@@ -1,4 +1,4 @@
-package Day18.map;
+package Day18;
 
 import java.util.Set;
 import java.util.SortedSet;
