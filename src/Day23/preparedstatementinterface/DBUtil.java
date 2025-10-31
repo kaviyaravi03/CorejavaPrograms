@@ -1,5 +1,4 @@
-package Day23.dao;
-
+package Day23.preparedstatementinterface;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -28,5 +27,9 @@ public class DBUtil {
 		}
 		return cn;
 
+	}
+	public static Connection getConnectionObject() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

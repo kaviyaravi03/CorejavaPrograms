@@ -1,4 +1,4 @@
-package Day23.service;
+package Day23.preparedstatementinterface;
 
 import java.sql.Connection;
 
@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import Day22.callablestatementinterface.DBUtil;
+import Day23.preparedstatementinterface.DBUtil;
 
 public class PreparedStatementDemo {
 
@@ -14,7 +14,7 @@ public class PreparedStatementDemo {
 
 	static PreparedStatement pst;
 	static {
-		cn = DBUtil.getConnection();
+		cn = DBUtil.getConnectionObject();
 
 		if (cn != null)
 			System.out.println("JDBC:connection is taken..");
