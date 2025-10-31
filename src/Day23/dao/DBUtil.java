@@ -1,4 +1,4 @@
-package Day23.preparedstatementinterface;
+package Day23.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

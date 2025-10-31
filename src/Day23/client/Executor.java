@@ -1,6 +1,6 @@
 package Day23.client;
 
-import Day23.preparedstatementinterface.PreparedStatementDemo;
+import Day23.dao.PreparedStatementDemo;
 
 public class Executor {
 
